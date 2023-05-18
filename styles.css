@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(to bottom, rgb(77, 77, 77) 25%, rgb(255, 255, 255) 100%, rgb(0, 0, 0) 75%);
+}
+main{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+main .main-logo{
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 30 px;
+}
+
+main .main-logo img{
+    width: 550px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    text-align: center;
+    padding: 20px 25px;
+    box-shadow: 0 5px 10px rgba(255, 255, 255, 0.7);
+} 
+.title {
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 35px;
+}
+
+form i {
+    font-size: 20px;
+    color:#000000;
+    margin-right: 10px;
+}
+
+input {
+    color: #000000;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+button {
+    color:#000000;
+    border: none;
+    background: rgb(70, 70, 70);
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#inlineFormCustomSelectPref {
+    width: 187px;
+}

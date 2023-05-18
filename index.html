@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ICONOS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- ESTILOS BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!--JavaScript-->
+    <link rel="--JavaScript--" href="index.js">
+    <title>Bank 24</title>
+</head>
+<body>
+    <main>
+        <section class="main-logo">
+            <img src="LOGO BANK24.png" alt="Bank24 al servicio de tus necesidades. Desde 2004.">
+        </section>
+    </main>
+    <form action="">
+        <h1 class="title"></h1>
+        <p>Ingresa a tu cuenta de Bank24</p>
+        <label>
+            <i class="bi bi-person-fill"></i>
+            <select class="my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>Usuario...</option>
+                <option value="Alma">Alma Delia Mora Gutierrez</option>
+                <option value="Oscar">Oscar Martínez González</option>
+                <option value="Viridiana">Viridiana Molina Guzmán</option>
+            </select>
+        </label>
+        <label>
+            <i class="bi bi-lock-fill"></i>
+            <input placeholder="NIP" type="password" id="contraseña">
+        </label>
+
+        <button id="button" onclick="return login()">Ingresar</button>
+    </form>
+
+    <script src="ScriptLogin.js"></script>
+</body>
+</html>
